@@ -13,6 +13,8 @@ body {
     background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
     font-family: sans-serif;
     color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 /* Header */
