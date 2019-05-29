@@ -8,7 +8,6 @@ body {
     font-family: sans-serif;
     color: rgb(255, 255, 255);
     overflow: auto;
-    position: relative;
 
 }
 
@@ -131,4 +130,13 @@ header>h1 {
     #symbol {
         font-size: 26px;
     }
+}
+
+@media screen and (max-height: 700px) {
+    header>h1 {}
+
+    #info {
+        font-size: 8px;
+    }
+
 }
