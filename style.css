@@ -73,48 +73,45 @@ header>h1 {
     font-size: 40px;
 }
 
-/* footer */
-.footer-section {
-    background: #00021f;
-    padding-top: 10px;
-    color: #f8f8f8;
+/*footer*/
+.jumbotron {
+    background-color: #00021f;
+    min-height: 80px;
+    padding: 0px;
     position: absolute;
     bottom: 0;
     width: 100%;
-}
-
-.footer-section p {
     font-size: 14px;
+
 }
 
-.footer-section a {
-    color: #ffffff;
+.foot {
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
 }
 
 .insta {
-    float: left;
-    max-width: 36px;
-    margin-right: -3px;
+    max-width: 40px;
+    padding-left: 10px;
 }
 
 .fb {
-    float: left;
-    max-width: 33px;
-    margin-left: 20px;
+    max-width: 38px;
 }
+
 
 /* media queries */
 @media screen and (max-width: 600px) {
     .location-timezone {
-        font-size: 26px;
+        font-size: 32px;
     }
 
     .icon {
-        width: 70px;
+        width: 90px;
     }
 
-    .temperature-degree,
-        {
+    .temperature-degree {
         font-size: 32px;
     }
 
