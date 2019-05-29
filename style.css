@@ -76,7 +76,7 @@ header>h1 {
 /* footer */
 .footer-section {
     background: #00021f;
-    padding: 20px 0;
+    padding-top: 10px;
     color: #f8f8f8;
     position: absolute;
     bottom: 0;
