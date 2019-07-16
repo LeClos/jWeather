@@ -69,6 +69,14 @@ header>h1 {
   right: -10px;
 }
 
+#degree {
+  color: rgb(255, 204, 95);
+}
+
+#symbol {
+  color: rgb(255, 204, 95);
+}
+
 .degree-section {
   display: flex;
   align-items: center;
@@ -111,23 +119,31 @@ header>h1 {
   max-width: 38px;
 }
 
+#mybtn {
+  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+}
+
 
 /* media queries */
 @media screen and (max-width: 600px) {
   .location-timezone {
     font-size: 32px;
+    margin: 0px;
   }
 
   .icon {
     width: 90px;
+    margin: 0px;
   }
 
   .temperature-degree {
-    font-size: 32px;
+    font-size: 26px;
+    margin: 0px;
   }
 
   .temperature-description {
     font-size: 16px;
+    margin: 0px;
   }
 
   #symbol {
@@ -137,11 +153,22 @@ header>h1 {
   #mybtn {
     font-size: 10px;
   }
+
+  #demo {
+    font-size: 10px;
+    margin: 0px;
+  }
+
+  #theme {
+    font-size: 10px;
+    padding: 3px;
+  }
 }
 
 @media screen and (max-height: 700px) {
   #info {
-    font-size: 14px;
+    font-size: 10px;
+    margin: 0px;
   }
 
 }
